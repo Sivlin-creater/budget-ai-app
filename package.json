@@ -2,8 +2,9 @@
     "$schema": "https://www.schemastore.org/package.json",
     "private": true,
     "type": "module",
+    "homepage": "https://Sivlin-creater.github.io/budget-ai-app",
     "scripts": {
-        "build": "vite build",
+        "build": "vite build --outDir dist",
         "dev": "vite"
     },
     "dependencies": {
