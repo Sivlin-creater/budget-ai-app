@@ -38,21 +38,21 @@ Includes recurring expenses, history tracking, and email notifications. Built wi
 
 ---
 ## Setup Env.
-APP_NAME="ExpenseApp"
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3304
-DB_DATABASE=expense_db_laravel
-DB_USERNAME=root
-DB_PASSWORD=
+- APP_NAME="ExpenseApp"
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3304
+- DB_DATABASE=expense_db_laravel
+- DB_USERNAME=root
+- DB_PASSWORD=
 
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=465
-MAIL_USERNAME=learningeverything85@gmail.com
-MAIL_PASSWORD="your-app-password"
-MAIL_FROM_ADDRESS="learningeverything85@gmail.com"
-MAIL_FROM_NAME="${APP_NAME}"
+- MAIL_MAILER=smtp
+- MAIL_HOST=smtp.gmail.com
+- MAIL_PORT=465
+- MAIL_USERNAME=learningeverything85@gmail.com
+- MAIL_PASSWORD="your-app-password"
+- MAIL_FROM_ADDRESS="learningeverything85@gmail.com"
+- MAIL_FROM_NAME="${APP_NAME}"
 
 ## Setup Instructions
 
